@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+.head {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.minibox{
+    width: 100px;
+    height: 30px;
+    background: blue;
+    border-radius: 20px;
+    margin: 40px 0 0 100px;
+    /*position: relative;*/
+    /*top: 40px;*/
+    /*left: 100px;*/
+
+}
+.searc {
+    height: 50px;
+    width: 100px;
+    margin: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    font-size: 25px;
+}
+.bg {
+    width: 100%;
+    height: 500px;
+    background: cornflowerblue;
+}
+.box {
+    display: flex;
+    justify-content: center;
+
+}
+.box3 {
+    height: 200px;
+    width: 300px;
+    background: blue;
+    margin: 10px;
+    position: relative;
+    top: -100px;
+}
