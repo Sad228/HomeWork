@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+.border {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 300px;
+    margin: 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+}
+
+.header, .text1, .button {
+    /*margin: 20px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.text1 {
+    font-family: cursive;
+    font-size: 17px;
+    text-align: center;
+}
+
+.button {
+    /*background: none;*/
+    /*border-width: 1px;*/
+    width: 150px;
+    height: 40px;
+
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+}
+.foto {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+.radius {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-style: solid;
+    border-radius: 40px;
+    color: orange;
+    top: -80px;
+    left: 120px;
+}
