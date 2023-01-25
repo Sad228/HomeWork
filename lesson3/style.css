@@ -1,6 +1,22 @@
 body {
     margin: 0;
 }
+.centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radius {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-style: solid;
+    border-radius: 50%;
+    color: orange;
+    top: -80px;
+    /*left: 155px;*/
+    background: aquamarine;
+}
 
 .block {
     display: flex;
@@ -53,16 +69,17 @@ body {
     justify-content: center;
 }
 
-.radius {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 80px;
-    height: 80px;
-    border-style: solid;
-    border-radius: 40px;
-    color: orange;
-    top: -80px;
-    left: 155px;
-    background: aquamarine;
-}
+/*.radius {*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    width: 80px;*/
+/*    height: 80px;*/
+/*    border-style: solid;*/
+/*    border-radius: 50%;*/
+/*    color: orange;*/
+/*    top: -80px;*/
+/*    !*left: 155px;*!*/
+/*    background: aquamarine;*/
+/*}*/
