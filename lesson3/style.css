@@ -52,11 +52,7 @@ body {
     display: flex;
     justify-content: center;
 }
-.foto {
-    height: 50px;
-    width: 50px;
-    margin: 10px;
-}
+
 .radius {
     position: relative;
     display: flex;
@@ -67,5 +63,5 @@ body {
     border-radius: 40px;
     color: orange;
     top: -80px;
-    left: 120px;
+    left: 155px;
 }
