@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+.a,.b,.c,.d,.e {
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a {
+    width: 99%;
+    height: 150px;
+    margin: 10px;
+}
+.foot {
+    width: 100%;
+    margin: 10px;
+}
+.b {
+    width: 60%;
+    height: 150px;
+}
+.cde {
+    width: 60%;
+    display: flex;
+    height: 150px;
+}
+.c,.d,.e {
+    width: 100%;
+}
+.d,.e {
+    margin-left: 10px;
+}
+.forF {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px 20px;
+}
+.f {
+    width: 38%;
+    height: 320px;
+    background: silver;
+    position: absolute;
+    /*order: 2;*/
+    /*display: flex;*/
+    /*justify-content:flex-end;*/
+    /*align-items:center;*/
+    /*!*position: absolute;*!*/
+}
