@@ -54,8 +54,8 @@ body {
     top: 170px;
     margin-left: 10px;
 }
-@media screen  and (min-width: 0) and (max-width: 575px) {
-     .main {
+@media screen  and (min-width: 0) and (max-width: 575px)  {
+    .main {
         display: flex;
         flex-direction: column;
     }
